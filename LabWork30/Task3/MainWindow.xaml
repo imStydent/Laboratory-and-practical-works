@@ -1,0 +1,24 @@
+﻿<Window x:Class="Task3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Поле ввода"/>
+        <TextBox x:Name="inputTextBox" Height="100" VerticalAlignment="Top"/>
+        <Label Content="Размер шрифта"/>
+        <RadioButton Content="10" Checked="FontSizeRadioButton_Checked" GroupName="FontSize"/>
+        <RadioButton Content="20" Checked="FontSizeRadioButton_Checked" GroupName="FontSize"/>
+        <RadioButton Content="30" Checked="FontSizeRadioButton_Checked" GroupName="FontSize"/>
+        <Label Content="Выравнивание текста"/>
+        <RadioButton x:Name="leftAlignmentRadioButton" Content="По левому краю"
+                     Checked="LeftAlignmentRadioButton_Checked" IsChecked="True" GroupName="Alignment"/>
+        <RadioButton x:Name="centerAlignmentRadioButton" Content="По центру" 
+                     Checked="CenterAlignmentRadioButton_Checked" GroupName="Alignment"/>
+        <RadioButton x:Name="rightAlignmentRadioButton" Content="По правому краю" 
+                     Checked="RightAlignmentRadioButton_Checked" GroupName="Alignment"/>
+    </StackPanel>
+</Window>

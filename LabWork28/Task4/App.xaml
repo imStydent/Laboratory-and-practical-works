@@ -1,0 +1,27 @@
+﻿<Application x:Class="Task4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Task4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Control">
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="FontFamily" Value="/Fonts/Amatic SC"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="0 5 5 5"/>
+        </Style>
+
+        <Style TargetType="Label" BasedOn="{StaticResource {x:Type Control}}"/>
+
+        <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type Control}}"/>
+
+        <Style TargetType="Button" BasedOn="{StaticResource {x:Type Control}}">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Width" Value="200"/>
+        </Style>
+
+        <Style x:Key="CancelButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="Red"/>
+        </Style>
+    </Application.Resources>
+</Application>

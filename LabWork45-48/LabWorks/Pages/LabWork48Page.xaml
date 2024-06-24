@@ -1,0 +1,36 @@
+﻿<Page x:Class="LabWorks.Pages.LabWork48Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LabWorks.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LabWork48Page">
+
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock Name="outputTextBlock" Height="25" Width="800" HorizontalAlignment="Left"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="hintSurnameTextBlock" Foreground="Gray" Margin="3, 2" Text="Введите фамилию автора" Grid.Row="0"/>
+                <TextBox Name="surnameTextBox" TextChanged="SurnameTextBox_TextChanged" Background="Transparent" Text="{Binding Text}" Grid.Row="0"/>
+                <TextBlock Name="hintNameTextBlock" Foreground="Gray" Margin="3, 2" Text="Введите имя автора" Grid.Row="1" Visibility="Collapsed"/>
+                <TextBox Name="nameTextBox" Text="{Binding Text}" Background="Transparent" TextChanged="NameTextBox_TextChanged" Grid.Row="1" Visibility="Collapsed"/>
+                <TextBlock Name="hintCountryTextBlock" Foreground="Gray" Margin="3, 2" Text="Введите страну автора" Grid.Row="2" Visibility="Collapsed"/>
+                <TextBox Name="countryTextBox" Text="{Binding Text}" Background="Transparent" TextChanged="CountryTextBox_TextChanged" Grid.Row="2" Visibility="Collapsed"/>
+            </Grid>
+            <WrapPanel>
+                <RadioButton Name="task2RadioButton" Content="Добваить автора с помощью процедуры" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+                <RadioButton Name="task3RadioButton" Content="Добваить автора, с помощью второй процедуры" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+                <RadioButton Name="task4RadioButton" Content="Вывести книги из диапазона цен" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+            </WrapPanel>
+            <Button Name="executeButton" Content="Выполнить хранимую процедуру" Height="25" Width="200" HorizontalAlignment="Left" Click="ExecuteButton_Click"/>
+            <DataGrid Name="outputDataGrid"/>
+        </StackPanel>
+    </DockPanel>
+</Page>

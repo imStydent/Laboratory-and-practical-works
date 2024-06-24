@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\ispp-21\\BonusTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2017CE7-69DB-4979-AEFE-4967A9F61CF5}|BonusTask\\BonusTask.csproj|c:\\temp\\ispp-21\\bonustask\\bonustask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2017CE7-69DB-4979-AEFE-4967A9F61CF5}|BonusTask\\BonusTask.csproj|solutionrelative:bonustask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 319,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Temp\\ispp-21\\BonusTask\\BonusTask\\Program.cs",
+              "RelativeDocumentMoniker": "BonusTask\\Program.cs",
+              "ToolTip": "C:\\Temp\\ispp-21\\BonusTask\\BonusTask\\Program.cs",
+              "RelativeToolTip": "BonusTask\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:20:16.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

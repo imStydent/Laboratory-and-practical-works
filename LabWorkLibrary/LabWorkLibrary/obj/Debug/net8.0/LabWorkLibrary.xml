@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabWorkLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:LabWorkLibrary.Maths">
+            <summary>
+            Класс со статическими методами математических действий и бинарным коэффициентом
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Maths.BINARY_FACTOR">
+            <summary>
+            Бинарный коэффициент
+            </summary>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Sum(System.Double,System.Double)">
+            <summary>
+            Возвращает сумму двух чисел
+            </summary>
+            <param name="a">1 слагаемое</param>
+            <param name="b">2 слагаемое</param>
+            <returns>Представляет число типа double</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Subtract(System.Double,System.Double)">
+            <summary>
+            Возвращает разность двух чисел
+            </summary>
+            <param name="a">Уменьшаемое</param>
+            <param name="b">Вычитаемое</param>
+            <returns>Представляет число типа double</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Multiply(System.Double,System.Double)">
+            <summary>
+            Возвращает произведение двух чисел
+            </summary>
+            <param name="a">1 множитель</param>
+            <param name="b">2 множитель</param>
+            <returns>Представляет число типа double</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Divide(System.Double,System.Double)">
+            <summary>
+            Возвращает частное двух чисел
+            </summary>
+            <param name="a">Делимое</param>
+            <param name="b">Делитель</param> 
+            <returns>Представляет число типа double</returns>
+            <exception cref="T:System.ArgumentException">Деление на ноль невозможно</exception>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetSquare(System.Double,System.Double)">
+            <summary>
+            Возвращает площадь прямоугольника
+            </summary>
+            <param name="height">Высота прямоугольника</param>
+            <param name="width">Ширина прямоугольника</param>
+            <returns>Представляет число типа double</returns>
+            <exception cref="T:System.ArgumentException">Значение сторон должно быть больше нуля</exception>
+        </member>
+        <member name="T:LabWorkLibrary.Role">
+            <summary>
+            Перечисление ролей пользователей
+            </summary>
+        </member>
+        <member name="T:LabWorkLibrary.User">
+            <summary>
+            Класс User, содержащий логин, пароль и роль пользователя
+            </summary>
+        </member>
+    </members>
+</doc>

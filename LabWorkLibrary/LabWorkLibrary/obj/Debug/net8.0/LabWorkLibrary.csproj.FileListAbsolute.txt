@@ -1,0 +1,13 @@
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\bin\Debug\net8.0\LabWorkLibrary.deps.json
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\bin\Debug\net8.0\LabWorkLibrary.dll
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\bin\Debug\net8.0\LabWorkLibrary.pdb
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.GeneratedMSBuildEditorConfig.editorconfig
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.AssemblyInfoInputs.cache
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.AssemblyInfo.cs
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.csproj.CoreCompileInputs.cache
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.dll
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\refint\LabWorkLibrary.dll
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.pdb
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\ref\LabWorkLibrary.dll
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\bin\Debug\net8.0\LabWorkLibrary.xml
+V:\ispp21\LabWorkLibrary\LabWorkLibrary\obj\Debug\net8.0\LabWorkLibrary.xml

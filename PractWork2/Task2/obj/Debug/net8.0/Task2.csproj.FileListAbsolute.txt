@@ -1,0 +1,16 @@
+C:\Temp\ispp-21\PractWork2\Task2\bin\Debug\net8.0\Task2.exe
+C:\Temp\ispp-21\PractWork2\Task2\bin\Debug\net8.0\Task2.deps.json
+C:\Temp\ispp-21\PractWork2\Task2\bin\Debug\net8.0\Task2.runtimeconfig.json
+C:\Temp\ispp-21\PractWork2\Task2\bin\Debug\net8.0\Task2.dll
+C:\Temp\ispp-21\PractWork2\Task2\bin\Debug\net8.0\Task2.pdb
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.csproj.ResolveComReference.cache
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.AssemblyInfoInputs.cache
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.AssemblyInfo.cs
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.csproj.CoreCompileInputs.cache
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.dll
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\refint\Task2.dll
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.pdb
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\Task2.genruntimeconfig.cache
+C:\Temp\ispp-21\PractWork2\Task2\obj\Debug\net8.0\ref\Task2.dll

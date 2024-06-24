@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clicker", "Clicker\Clicker.csproj", "{ECC83D2E-30D3-492F-BAE5-E2A05B94A5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shooter", "Shooter\Shooter.csproj", "{0C5B8FD6-C25D-4A83-BF95-EE56FE276F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPong", "PingPong\PingPong.csproj", "{81541D94-7472-46BA-9D45-A73EA8A3717F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC83D2E-30D3-492F-BAE5-E2A05B94A5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC83D2E-30D3-492F-BAE5-E2A05B94A5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC83D2E-30D3-492F-BAE5-E2A05B94A5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC83D2E-30D3-492F-BAE5-E2A05B94A5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5B8FD6-C25D-4A83-BF95-EE56FE276F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5B8FD6-C25D-4A83-BF95-EE56FE276F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5B8FD6-C25D-4A83-BF95-EE56FE276F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5B8FD6-C25D-4A83-BF95-EE56FE276F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81541D94-7472-46BA-9D45-A73EA8A3717F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81541D94-7472-46BA-9D45-A73EA8A3717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81541D94-7472-46BA-9D45-A73EA8A3717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81541D94-7472-46BA-9D45-A73EA8A3717F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F58C38A-7C7E-46E2-AD80-D2E7BB2ACDFC}
+	EndGlobalSection
+EndGlobal

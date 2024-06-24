@@ -1,0 +1,21 @@
+﻿<Window x:Class="LabWorks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWorks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Name="labWork45Button" Content="К 45 лабораторной работе" Click="LabWork45Button_Click"/>
+            <Separator/>
+            <Button Name="labWork46Button" Content="К 46 лабораторной работе" Click="LabWork46Button_Click"/>
+            <Separator/>
+            <Button Name="labWork47Button" Content="К 47 лабораторной работе" Click="LabWork47Button_Click"/>
+            <Separator/>
+            <Button Name="labWork48Button" Content="К 48 лабораторной работе" Click="LabWork48Button_Click"/>
+        </ToolBar>
+        <Frame Name="mainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

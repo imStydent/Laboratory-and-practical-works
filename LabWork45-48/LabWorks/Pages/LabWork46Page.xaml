@@ -1,0 +1,33 @@
+﻿<Page x:Class="LabWorks.Pages.LabWork46Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LabWorks.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LabWork46Page">
+
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock Name="outputTextBlock" Height="25" Width="800" HorizontalAlignment="Left"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="hintTextBlock" Foreground="Gray" Margin="3, 2" Text="Введите SQL запрос" Grid.Row="0"/>
+                <TextBox Name="inputTextBox" TextChanged="InputTextBox_TextChanged" Background="Transparent" Text="{Binding Text}" Grid.Row="0"/>
+                <TextBlock Name="hintPriceTextBlock" Foreground="Gray" Margin="3, 2" Text="Введите цену книги" Grid.Row="1" Visibility="Collapsed"/>
+                <TextBox Name="inputPriceTextBox" Text="{Binding Text}" Background="Transparent" TextChanged="InpuPriceTextBox_TextChanged" Grid.Row="1" Visibility="Collapsed"/>
+            </Grid>
+            <WrapPanel>
+                <RadioButton Name="task1RadioButton" Content="Вывести количесво затронутых строк" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+                <RadioButton Name="task2RadioButton" Content="Сменить цену книги по id" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+                <RadioButton Name="task3RadioButton" Content="Вернуть таблицу по имени" GroupName="Tasks" Checked="RadioButton_Checked" Margin="5,0"/>
+            </WrapPanel>
+            <Button Name="executeButton" Content="Выполнить SQL команду" Height="25" Width="150" HorizontalAlignment="Left" Click="ExecuteButton_Click"/>
+            <DataGrid Name="outputDataGrid"/>
+        </StackPanel>
+    </DockPanel>
+</Page>

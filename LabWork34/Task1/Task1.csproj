@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\createIcon.jpg" />
+    <None Remove="Icons\escapeIcon.png" />
+    <None Remove="Icons\fillColorIcon.png" />
+    <None Remove="Icons\saveIcon.jpg" />
+    <None Remove="Icons\textColorIcon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\createIcon.jpg" />
+    <Resource Include="Icons\escapeIcon.png" />
+    <Resource Include="Icons\fillColorIcon.png" />
+    <Resource Include="Icons\saveIcon.jpg" />
+    <Resource Include="Icons\textColorIcon.jpg" />
+  </ItemGroup>
+
+</Project>

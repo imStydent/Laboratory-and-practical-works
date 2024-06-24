@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\AmaticSC-Bold.ttf" />
+    <None Remove="Fonts\AmaticSC-Regular.ttf" />
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\galaxy.jpg" />
+    <None Remove="Images\plant.png" />
+    <None Remove="Images\zombie ball.png" />
+    <None Remove="Images\zombie.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\AmaticSC-Bold.ttf" />
+    <Resource Include="Fonts\AmaticSC-Regular.ttf" />
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\galaxy.jpg" />
+    <Resource Include="Images\plant.png" />
+    <Resource Include="Images\zombie ball.png" />
+    <Resource Include="Images\zombie.png" />
+  </ItemGroup>
+
+</Project>
